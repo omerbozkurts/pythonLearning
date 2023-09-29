@@ -12,7 +12,7 @@ print(myList2[3])
 list1=['one','two','three']
 list2=['four','five','six']
 
-number=list1+list2;
+number=list1+list2
 print(number)
 print(number[3])
 print(len(number))
