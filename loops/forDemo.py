@@ -36,7 +36,12 @@ urunler=[{'name':'samsung s6','price':'3000'},
 #q5 what is the sum of the prices of the products
 
 for urun in urunler:
-    for name,price in urun.items():
-        print(price)
+    sum=sum+int(urun['price'])
+print(sum)
+    
 
 #q6 products with a maximum price of 5000
+
+for urun in urunler:
+    if int(urun['price'])<=5000:
+        print(urun)
