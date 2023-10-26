@@ -4,7 +4,7 @@ if x>5:
     raise Exception('error')
 
 def checkPassword(psw):
-    import re
+    import re #regular expression
     if len(psw)<8:
         raise Exception('parola 8 karakterden fazla olmalidir')
     elif not re.search('[a-z]',psw):
