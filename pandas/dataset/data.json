@@ -1,0 +1,15 @@
+[
+    {
+    "name": "omer",
+    "surname": "bozkurt",
+    "birthyear" : 2002,
+    "city": "istanbul"
+    },
+    
+    {
+    "name" : "ali",
+    "surname" : "yilmaz",
+    "birthyear" : 2000,
+    "city" : "istanbul"
+    }
+]
